@@ -6,7 +6,4 @@ For example, div_3(6) is True because 6/3 does not leave any remainder. However 
 '''
 
 def div_3(number):
-    if number % 3 == 0:
-        return True
-    else:
-        return False
+    return number % 3 == 0

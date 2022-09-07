@@ -12,5 +12,3 @@ def double_letters(w):
             return True
         last = i
     return False
-
-print(double_letters('hello'))

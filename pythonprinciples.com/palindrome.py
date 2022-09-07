@@ -8,7 +8,4 @@ Write a function named palindrome that takes a single string as its parameter. Y
 '''
 
 def palindrome(string):
-    if string == string[::-1]:
-        return True
-    else:
-        return False
+    return string == string[::-1]
